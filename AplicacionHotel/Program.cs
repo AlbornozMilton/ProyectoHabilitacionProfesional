@@ -10,7 +10,7 @@ namespace AplicacionHotel
     {
         static void Main(string[] args)
         {
-
+            //Mirallloco
         }
     }
 }
