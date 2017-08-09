@@ -8,6 +8,8 @@ namespace AplicacionHotel.Domain
 {
     class Alojamiento
     {
+        private int iAlojamiento;
+        //askdaksdnaind
 
     }
 }
