@@ -13,6 +13,7 @@ namespace AplicacionHotel.Domain
         private int iCapacidad;
         private int iPlanta;
         private bool iExclusiva; //bool o boolean usar?
+        private List<Cupo> iListaCupo = new List<Cupo>(); //IList<Cupo>
 
         //CONSTRUCTOR
         public Habitacion(int pNro, int pCapacidad, int pPlanta, bool pExclusiva)

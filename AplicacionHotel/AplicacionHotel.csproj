@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\Alojamiento.cs" />
+    <Compile Include="Domain\Cupo.cs" />
     <Compile Include="Domain\Habitacion.cs" />
+    <Compile Include="Domain\TipoCupo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
