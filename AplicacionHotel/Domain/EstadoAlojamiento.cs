@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AplicacionHotel.Domain
 {
-    enum EstadoAlojamiento
+    public enum EstadoAlojamiento
     {
         Reservado,
         Alojado,

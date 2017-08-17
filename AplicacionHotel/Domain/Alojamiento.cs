@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace AplicacionHotel.Domain
 {
-    class Alojamiento
+    public class Alojamiento
     {
         private int iIdAlojamiento;
         private int iDniTitular;
+        private List<LineaServicio> iServicios;
+
         //private Cliente iClienteResponsable;
         //private List<Habitacion> iHabitaciones; 
         //private List<Pago> iPagos;
@@ -117,8 +119,15 @@ namespace AplicacionHotel.Domain
 
         }
 
-
-
+        public double TotalServicios()
+        {
+            double total = 0;
+            foreach (var item in this.iServicios)
+            {
+                total =+ item.CostoServicio; // ver si es =+ o +=   
+            }
+            return total;
+        }
 
     }
 }
